@@ -1,0 +1,62 @@
+.blog-card {
+  position: relative;
+  height: 11rem;
+  background-size: cover;
+  // background-color: blue;
+  background-image: url("/images/kids/tech1.jpg");
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  margin: 1.4rem 0.9rem;
+
+  .blog-overlay {
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.25);
+    transform: translate(-50%); //on combaciava con l'immagine
+  }
+
+  .blog-text {
+    position: relative;
+    color: #fff;
+
+    .blog-title {
+      position: absolute;
+      top: 1.2rem;
+      font-weight: bold;
+      left: 1rem;
+      z-index: 9;
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .blog-source {
+      position: absolute;
+      top: 2.5rem;
+      left: 1rem;
+      z-index: 9;
+      font-size: 0.8rem;
+    }
+
+    .read-blog {
+      position: absolute;
+      top: 8rem;
+      right: 1rem;
+      z-index: 9;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+#recenti,
+#toys,
+#school {
+  color: #ab32ec;
+}

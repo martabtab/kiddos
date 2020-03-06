@@ -1,0 +1,31 @@
+.missions-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1.3rem;
+}
+
+.subjects-container p {
+  color: #000;
+}
+
+.mission {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.planet-image {
+  height: 5rem;
+
+  // &:hover,
+  // &:active {
+  //   animation: rotation 3s cubic-bezier(0.93, 0, 0.52, 1);
+  //   @keyframes rotation {
+  //     0% {
+  //       transform: rotate(0);
+  //     }
+  //     100% {
+  //       transform: rotate(360deg);
+  //     }
+  //   }
+  // }
+}

@@ -1,0 +1,88 @@
+@import "home/home";
+
+@import "kiddos";
+
+@import "momdad";
+
+@import "aziende";
+
+@import "navbar";
+
+@import "eventi";
+
+@import "community";
+
+@import "numbers";
+
+@import "partner";
+
+@import "reviews";
+
+@import "footer";
+
+$background-color: #000;
+$text-color: #000;
+$primary-color: #ab32ec;
+
+html {
+  margin: 0;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  color: $text-color;
+  line-height: 1.5;
+  margin: 0;
+  // background-color: #b25cf3;
+}
+
+.home-container {
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.inner-title {
+  color: #ab32ec;
+}
+
+.section-container {
+  margin-top: 3.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+  color: #fff;
+  // width: 90vw;
+}
+
+button:active,
+button:focus {
+  font-weight: bold;
+  box-shadow: none;
+  outline: 0;
+}
+
+.button {
+  padding: 0.8rem 2.2rem;
+  border: 1px solid #fff;
+  width: 90%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

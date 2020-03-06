@@ -1,0 +1,38 @@
+.graphic-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .graphic {
+    width: 100%;
+
+    .graphic-visual {
+      position: relative;
+      padding: 1rem 2rem;
+
+      .graphic-image {
+        width: 100%;
+      }
+
+      .graphic-number {
+        display: inline-block;
+        margin: 0;
+        position: absolute;
+        top: 36%;
+        right: 35%;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .graphic-text {
+    padding: 0 1.5rem;
+    .graphic-description {
+      font-size: 0.8rem;
+      margin: 0;
+    }
+    .graphic-source {
+      font-size: 0.6rem;
+    }
+  }
+}
